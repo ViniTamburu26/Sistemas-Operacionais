@@ -5,15 +5,15 @@ int main() {
     int t, d;
     int totalTime = 0;
 
-    printf("Digite o n˙mero de pessoas que usar„o a escada rolante: ");
+    printf("Digite o n√∫mero de pessoas que usar√£o a escada rolante: ");
     scanf("%d", &N);
 
     int dValues[N];
     int tValues[N];
 
-    printf("Digite o momento de chegada e a direÁ„o (0 para esquerda, 1 para direita) para cada pessoa:\n");
+    printf("Digite o momento de chegada e a dire√ß√£o (0 para esquerda, 1 para direita) para cada pessoa:\n");
 
-    // Leitura dos valores de d e c·lculo inicial do totalTime
+    // Leitura dos valores de d e c√°lculo inicial do totalTime
     for (int i = 0; i < N; i++) {
         printf("Pessoa %d: ", i + 1);
         scanf("%d %d", &t, &d);
@@ -33,7 +33,7 @@ int main() {
 
     }
 
-    printf("O momento em que a ˙ltima pessoa saiu da escada È: %d\n", totalTime);
+    printf("O momento em que a √∫ltima pessoa saiu da escada √©: %d\n", totalTime);
 
     return 0;
 }
